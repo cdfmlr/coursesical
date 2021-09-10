@@ -18,6 +18,7 @@ Courses to iCalendar.
 
 ```sh
 python3 -m coursesical -s SID -p PASSWORD -f "2021-03-01"
+# -f "yyyy-mm-dd" 是你这个学期第一周的周一的日期。
 ```
 
 用日历 app 打开生成的 coursesical.ics 即可。
